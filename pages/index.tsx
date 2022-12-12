@@ -11,33 +11,6 @@ export default function Home() {
         <title>Asia Focus Group</title>
         <meta content="" name="descriptison" />
         <meta content="" name="keywords" />
-
-        {/* Favicons */}
-        <link href="/static/images/favicon.png" rel="icon" />
-        <link href="/static/images/apple-touch-icon.png" rel="apple-touch-icon" />
-
-         {/* Google Fonts */}
-        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet" />
-
-        {/* Vendor CSS Files */}
-        <link href="/static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
-        <link href="/static/vendor/icofont/icofont.min.css" rel="stylesheet" />
-        <link href="/static/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
-        <link href="/static/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet" />
-        <link href="/static/vendor/venobox/venobox.css" rel="stylesheet" />
-        <link href="/static/vendor/aos/aos.css" rel="stylesheet" />
-
-        <link href="/static/css/font-awesome.min.css" rel="stylesheet" />
-        {/* Template Main CSS File */}
-        <link href="/static/css/globals.css?v=0.001" rel="stylesheet" />
-
-        {/* =======================================================
-        * Template Name: Maxim - v2.1.0
-        * Template URL: https://bootstrapmade.com/maxim-free-onepage-bootstrap-theme/
-        * Author: BootstrapMade.com
-        * License: https://bootstrapmade.com/license/
-        ======================================================== */}
-
         <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     </Head>
 
