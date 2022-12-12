@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import Script from 'next/script'
 
 export default function Home() {
   return (
@@ -97,18 +96,7 @@ export default function Home() {
           </span>
         </a>
       </footer>
-      <Script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"/>
-      {/* Vendor JS Files */}
-      <Script src="/static/vendor/jquery/jquery.min.js" />
-      <Script src="/static/vendor/bootstrap/js/bootstrap.bundle.min.js" />
-      <Script src="/static/vendor/jquery.easing/jquery.easing.min.js" />
-      <Script src="/static/vendor/php-email-form/validate.js" />
-      <Script src="/static/vendor/owl.carousel/owl.carousel.min.js" />
-      <Script src="/static/vendor/isotope-layout/isotope.pkgd.min.js" />
-      <Script src="/static/vendor/venobox/venobox.min.js" />
-      <Script src="/static/vendor/aos/aos.js" />
-      {/* Template Main JS File */}
-      <Script src="/static/js/main.js" />
+     
     </div>
   )
 }
