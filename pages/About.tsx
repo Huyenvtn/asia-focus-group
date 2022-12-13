@@ -1,6 +1,6 @@
 export default function About() {
   return(
-    <div>
+    <>
       <section id="about-hero" className="d-flex flex-column justify-content-center align-items-center">
         <div className="container">
           <div className="row">
@@ -90,12 +90,7 @@ export default function About() {
 
         </section>
         {/* End Hero */}
-
-
-
-    </main>
-    {/* End #main */}
-    <br />
-    </div>
+      </main>
+    </>
   )
 } 

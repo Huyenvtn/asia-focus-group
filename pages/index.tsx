@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Script from 'next/script'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
@@ -11,7 +12,7 @@ export default function Home() {
         <title>Asia Focus Group</title>
         <meta content="" name="descriptison" />
         <meta content="" name="keywords" />
-        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+        <script src="https://www.google.com/recaptcha/api.js" defer />
     </Head>
 
       <main className={styles.main}>

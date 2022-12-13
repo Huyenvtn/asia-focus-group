@@ -8,6 +8,20 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: inherit!important;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.container {
+  width: 100%;
+padding-right: 15px;
+padding-left: 15px;
+margin-right: auto;
+margin-left: auto;
+}
 body {
   font-family: "Open Sans", sans-serif;
   color: #000000;
